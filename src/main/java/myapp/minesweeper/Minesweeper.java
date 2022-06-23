@@ -161,7 +161,7 @@ public class Minesweeper {
         int col = kb.nextInt();
         if(!digMine(row, col, true)) {
             roundsCompleted++;
-            printInvalidCommand();
+            //printInvalidCommand();
         }else{
             /*
                 top left: (row-1, col-1)
